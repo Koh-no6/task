@@ -1,0 +1,112 @@
+.container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: lightgray;
+        border-radius: 4px;
+    }
+
+    .buttons p{
+        width: 20%;
+        display: inline-block;
+        background-color: #4a4a4a;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+        text-align: center;
+        margin: 20px;
+    }
+
+    input[type="text"] {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    input[type="date"] {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    #addTask {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: lightyellow;
+        border-radius: 4px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    li span{
+        border: #0098fe solid 3px;
+        color: #0098fe;
+        border-radius: 4px;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: auto;
+    }
+
+    li span::before{
+        content: "期限：";
+    }
+
+    li button {
+        background-color: #f44336;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+

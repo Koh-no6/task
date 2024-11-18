@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスク管理</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>タスク管理</h1>
+        <h2>頭の中を整理して日々丁寧に</h2>
+        <form>
+            <input type="text" id="taskInput" placeholder="タスク">
+            <input type="date" id="deadLine" value="2024-11-01"/>
+            <button type="button" id="addTask">追加</button>
+        </form>
+        <div class="buttons">
+            <p id="save">Save</p>
+            <p id="load">Load</p>
+            <p id="reset">Reset</p>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
